@@ -15,5 +15,6 @@ function initializePage() {
 function clickLike(e) {
 	e.preventDefault();
 	ga('create', 'UA-158830494-1', 'auto');
+	ga('require', 'GTM-5HSD5B7');
 	ga('send', 'event', 'like', 'click');
 }
